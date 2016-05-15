@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Eligibility Form
+	</title>
+</head>
+<body>
+	<h1> Adaption Eligibility Form </h1>
+	<form name="Approval Form" action="result.html" method="post" >
+		<fieldset name="Contact Information">
+			<legend>Contact Information</legend>
+			<div>
+				<label>Name:</label>
+				<input type="text" name="name" placeholder="Full Name">
+			</div>
+			<div>
+				<label>Contact Number:</label>
+				<input type="tel" name="tel" placeholder="(xxx)xxx-xxxx">
+			</div>
+			<div>
+				<label>Email:</label>
+				<input type="email" name="email">
+			</div>
+			<div>
+				<label>Prefered Contact:</label>
+				<input type="checkbox" name="contact" value="email">Email
+				<input type="checkbox" name="contact" value="phone">Phone
+			</div>
+		</fieldset>
+		<fieldset name="Environment">
+			<legend>About yourself</legend>
+			<div>
+				<label>Do you like cats?</label>
+				<input type="radio" name="like-cat" value="true"> 
+				yes
+				<input type="radio" name="like-cat" value="false"> no
+			</div>
+			<div>
+				<legend>Describe your living situation?</legend>
+				<textarea name="living-situation" rows="5" cols="50">Describe your home</textarea>
+			</div>
+			<div>
+				<legend>Describe yourself?</legend>
+				<textarea name="living-situation" rows="5" cols="50">Describe yourself</textarea>
+			</div>
+			<div>
+				<legend>Describe your cat</legend>
+				<textarea name="living-situation" rows="5" cols="50">What attribute or temperment are you looking for?</textarea>
+			</div>
+			<div>
+				<input type="checkbox" name="agreement" value="yes">"I agree to love and care for the Savannah responsibly."
+			</div>
+		</fieldset>
+		<button type="submit">Submit Form</button>
+		
+	</form>
+</body>
+</html>
