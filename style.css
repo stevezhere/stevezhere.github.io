@@ -1,5 +1,5 @@
 body {
-	font-family: Arial black, sans-serif;
+	font-family: Georgia, serif;
 	max-width: 100%
 	border: auto;
 	background-image: url("Pictures/background.jpg");
@@ -11,6 +11,7 @@ section {
 	margin: 20px;
 	max-width: 80%;
 	background-color: orange;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 .sidebar {
@@ -49,4 +50,11 @@ footer{
 	bottom: 0;
 }
 
+/*Pseudo-link*/
+a:visited{
+	color: #00802b;
+}
 
+a:hover{
+	color: #00ff00;
+}
