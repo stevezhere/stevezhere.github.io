@@ -1,7 +1,9 @@
 body {
-	font-family: Arial black, sans-serif;
-	max-width: 100%
-	background-image: url("https://wallpaperscraft.com/image/footprints_paw_surface_texture_50864_2048x1152.jpg");
+	font-family: Georgia, serif;
+	font-size: 17px;
+	max-width: 100%;
+	border: auto;
+	background-image: url("Pictures/background.jpg");
 }	
 
 section {
@@ -9,13 +11,15 @@ section {
 	padding: 50px;
 	margin: 20px;
 	max-width: 80%;
-	background-color: orange;
+	background-color: rgba(255, 153, 0, 0.8);
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 .sidebar {
+	position: relative;
 	float: left;
 	left: 0px;
-	max-width: 20%
+	max-width: 20%;
 }
 
 figure{
@@ -25,11 +29,13 @@ figure{
 }
 
 .attribute {
+	position: relative;
 	float: left;
-	max-width: 50%;
+	max-width: 48%;
 }
 
 main{
+	position: relative;
 	text-align: center;
 }
 
@@ -41,6 +47,7 @@ h1 {
 footer{
 	padding-bottom: 20px;
 	text-align: center;
+	clear: both;
 }
 
 #form{
@@ -48,4 +55,41 @@ footer{
 	bottom: 0;
 }
 
+/*Pseudo-link*/
+a:visited{
+	color: #00802b;
+}
 
+a:hover{
+	color: #00ff00;
+}
+
+/* Responsive Rescaling */
+
+@media screen and (max-width: 970px) {
+  body {
+    font-size: 12px;
+  }
+  section{
+  	margin: 2px;
+  	background-color: rgba(255, 153, 0, 0.6)
+
+  }
+  .sidebar{
+  	position:absolute;
+  	left: 0px;
+  	z-index: 2;
+  	text-align: left;
+  }
+  .attribute{
+  	position: absolute;
+  	right: 0px;
+  	z-index: 1;
+  	text-align: center;
+  }
+  footer{
+  	position: static;
+  	z-index: 0;
+  }
+
+}	
