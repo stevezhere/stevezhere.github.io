@@ -1,7 +1,8 @@
 body {
-	background-color: orange;
+
 	font-family: Arial black, sans-serif;
 	max-width: 100%
+	background-image: url(pictures/background.jpg);
 }
 
 section {
@@ -9,22 +10,43 @@ section {
 	padding: 50px;
 	margin: 20px;
 	max-width: 80%;
+	background-color: orange;
 }
 
-#sidebar {
+.sidebar {
 	float: left;
 	left: 0px;
 	max-width: 20%
 }
 
 figure{
-	position: relative;
-	float: center;
+	width:700px;
+	margin: 0 auto;
+	text-align: center;
 }
 
 .attribute {
 	float: left;
 	max-width: 50%;
+}
+
+main{
+	text-align: center;
+}
+
+h1 {
+	text-align: center;
+	font-size: 50px;
+}
+
+footer{
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+#form{
+	position: fixed;
+	bottom: 0;
 }
 
 
