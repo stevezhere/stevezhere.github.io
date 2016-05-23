@@ -1,3 +1,51 @@
 body {
+	font-family: Arial black, sans-serif;
+	max-width: 100%
+	background-image: url("https://wallpaperscraft.com/image/footprints_paw_surface_texture_50864_2048x1152.jpg");
+}	
+
+section {
+	border: 5px double black;
+	padding: 50px;
+	margin: 20px;
+	max-width: 80%;
 	background-color: orange;
 }
+
+.sidebar {
+	float: left;
+	left: 0px;
+	max-width: 20%
+}
+
+figure{
+	width:700px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.attribute {
+	float: left;
+	max-width: 50%;
+}
+
+main{
+	text-align: center;
+}
+
+h1 {
+	text-align: center;
+	font-size: 50px;
+}
+
+footer{
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+#form{
+	position: fixed;
+	bottom: 0;
+}
+
+
